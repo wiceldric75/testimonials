@@ -1,0 +1,235 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure no unexpected height issues */
+  width: 100%;
+}
+
+main {
+  display: grid;
+  width: 375px;
+  padding: 72px 24px;
+  gap: 24px;
+  background: #ecf2f8;
+}
+
+img {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background: lightgray 50% / cover no-repeat;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+  padding: 26px 32px 32px 32px;
+}
+
+.testimonial-1 blockquote p {
+  color: #cfcfcf;
+  font-family: "Barlow Semi Condensed";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 138.462% */
+  opacity: 0.7;
+}
+
+.testimonial-2 blockquote p {
+  color: #fff;
+  font-family: "Barlow Semi Condensed";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 138.462% */
+  opacity: 0.7;
+}
+.testimonial-3 blockquote p {
+  color: #48556a;
+  font-family: "Barlow Semi Condensed";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 138.462% */
+  opacity: 0.7;
+}
+
+.testimonial-4 blockquote p {
+  color: #fff;
+  font-family: "Barlow Semi Condensed";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 138.462% */
+  opacity: 0.7;
+}
+
+.testimonial-5 blockquote p {
+  color: #48556a;
+  font-family: "Barlow Semi Condensed";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 138.462% */
+  opacity: 0.7;
+}
+blockquote {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.white-verified {
+  color: #fff;
+  font-family: "Barlow Semi Condensed";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 11px; /* 100% */
+  opacity: 0.5;
+}
+
+.black-verified {
+  color: #48556a;
+  font-family: "Barlow Semi Condensed";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 11px; /* 100% */
+}
+
+.testimonial-1 img {
+  border: 2px solid #a775f1;
+}
+
+.testimonial-1 {
+  background: #733fc8 url("../images/bg-pattern-quotation.svg") no-repeat;
+  background-size: 104px 102px;
+  background-position: top 0px right 24px;
+}
+.testimonial-2 {
+  background: #48556a;
+}
+.testimonial-3 {
+  background: white;
+}
+.testimonial-4 {
+  background: #19202d;
+}
+.testimonial-5 {
+  background-color: white;
+}
+
+.testimonial-1 blockquote {
+  gap: 40px;
+}
+
+header {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.white-h2 {
+  color: #fff;
+  font-family: "Barlow Semi Condensed";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px; /* 100% */
+}
+
+.black-h2 {
+  color: #48556a;
+  font-family: "Barlow Semi Condensed";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px; /* 100% */
+}
+.white-h3 {
+  color: #fff;
+  font-family: "Barlow Semi Condensed";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.black-h3 {
+  color: #48556a;
+  font-family: "Barlow Semi Condensed";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.almostwhite-h3 {
+  color: #ecf2f8;
+  font-family: "Barlow Semi Condensed";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.testimonial-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+@media (min-width: 1024px) {
+  main {
+    width: 1440px;
+    padding: 165px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 24px 30px;
+  }
+
+  .testimonial-1 {
+    grid-column: span 2;
+    grid-row: 1;
+    background-position: top 0px right 84px;
+  }
+
+  .testimonial-2 {
+    grid-column: 3 / span 1;
+    grid-row: 1;
+  }
+
+  .testimonial-3 {
+    grid-column: 1 / span 1;
+    grid-row: 2;
+  }
+
+  .testimonial-4 {
+    grid-column: 2 / span 2;
+    grid-row: 2;
+  }
+
+  .testimonial-5 {
+    grid-column: 4 / span 1;
+    grid-row: 1 / span 2;
+  }
+
+  .testimonial-1 blockquote {
+    gap: 16px;
+  }
+}
