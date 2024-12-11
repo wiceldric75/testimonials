@@ -119,7 +119,7 @@ blockquote {
 }
 
 .testimonial-1 {
-  background: #733fc8 url("../images/bg-pattern-quotation.svg") no-repeat;
+  background: #733fc8 url("./images/bg-pattern-quotation.svg") no-repeat;
   background-size: 104px 102px;
   background-position: top 0px right 24px;
 }
