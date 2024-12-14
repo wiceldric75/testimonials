@@ -229,7 +229,15 @@ header {
     grid-row: 1 / span 2;
   }
 
+  .testimonial blockquote {
+    gap: 24px;
+  }
+
   .testimonial-1 blockquote {
+    gap: 16px;
+  }
+  
+  .testimonial-2 blockquote {
     gap: 16px;
   }
 }
