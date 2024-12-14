@@ -145,7 +145,7 @@ header {
   gap: 16px;
   align-items: center;
 }
-.white-h2 {
+.white-h1 {
   color: #fff;
   font-family: "Barlow Semi Condensed";
   font-size: 13px;
@@ -154,7 +154,7 @@ header {
   line-height: 13px; /* 100% */
 }
 
-.black-h2 {
+.black-h1 {
   color: #48556a;
   font-family: "Barlow Semi Condensed";
   font-size: 13px;
